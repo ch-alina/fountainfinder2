@@ -1,20 +1,10 @@
 <!DOCTYPE HTML>
-<!--
-	Road Trip by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+
 <html>
 	<head>
 		<title>Fountain Finder</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
-	   integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
-	   crossorigin=""/>
-	   <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
-	  integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
-	  crossorigin=""></script>
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="assets/js/jquery.min.js"></script>
@@ -39,7 +29,8 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">find a fountain</a></li>
-					<li><a href="whycare.html">why you should care</a></li>
+					<li><a href="whycare.html">why should you care?</a></li>
+					<li><a href="addfountain.html">add a fountain</a></li>
 					<li><a href="donate.html">donate</a></li>
 					<li><a href="aboutus.html">about us</a></li>
 
@@ -48,75 +39,59 @@
 
 			<!-- Banner -->
 
-			<section id="banner" class="bg-img" data-bg="water1.jpg">
+			<section id="banner" class="bg-img" data-bg="donate3.jpg">
 				<div class="inner">
 					<header>
 						<h1>donate</h1>
+						<h4>Beyond the tap: From cleaning up shores to providing access to water, all of the charities below help make a difference in the world.</h4>
 					</header>
 				</div>
 				<a href="#one" class="more">Learn More</a>
 			</section>
 
 			<!-- One -->
-				<section id="one" class="wrapper post bg-img" data-bg="water3.jpg">
+				<section id="one" class="wrapper post bg-img" data-bg="donate1.jpg">
 					<div class="inner">
 						<article class="box">
 							<header>
-								<h2> Beyond the tap</h2>
+								<img src="charitywater.png">
+							<br></br>
 							</header>
 							<div class="content">
-								<p> From cleaning up shores to providing acess to water around the world all the charities below help make a difference in the world. </p>
-
-						</article>
-					</div>
-					<a href="#two" class="more">Learn More</a>
-				</section>
+								<p>"charity : water brings clean and safe drinking water to people in need around the world, improving health, education, and opportunity - especially for women and children. ... We fund water programs in 24 countries around the globe - in Africa, Asia, Central and South America. We're passionate about solving the water crisis in our lifetime, using 100% of all public donations to fund water projects, and proving where every dollar goes with photos and GPS coordinates."</p>
+							</div>
+						<footer>
+							<a href="https://www.charitywater.org/" class="button alt">Learn More</a>
+						</footer>
+					</article>
+				</div>
+				<a href="#two" class="more">Learn More</a>
+			</section>
 
 			<!-- Two -->
-				<section id="two" class="wrapper post bg-img" data-bg="water4.jpg">
+				<section id="two" class="wrapper post bg-img" data-bg="water6.jpeg">
 					<div class="inner">
 						<article class="box">
 							<header>
-								<h2> Charity : Water </h2>
-								<p>----1----</p>
+								<img src="ppc.png">
 							</header>
 							<div class="content">
-								<p>"Charity : water brings clean and safe drinking water to people in need around the world, improving health, education, and opportunity - especially for women and children."</p>
-							</div>
-							<footer>
-								<a href="https://www.charitywater.org/" class="button alt">Learn More</a>
-							</footer>
-						</article>
-					</div>
-
-				</section>
-
-			<!-- Three -->
-				<section id="three" class="wrapper post bg-img" data-bg="water6.jpeg">
-					<div class="inner">
-						<article class="box">
-							<header>
-								<h2>Plastic Pollution Coalition</h2>
-								<p>----2----</p>
-							</header>
-							<div class="content">
-								<p>" A growing global alliance of organizations, businesses, and thought leaders working toward a world free of plastic pollution and its toxic impact on humans, animals, and the environment." </p>
+								<p>"A growing global alliance of organizations, businesses, and thought leaders working toward a world free of plastic pollution and its toxic impact on humans, animals, and the environment." </p>
 							</div>
 							<footer>
 								<a href="http://www.plasticpollutioncoalition.org/" class="button alt">Learn More</a>
 							</footer>
 						</article>
 					</div>
-					<a href="#four" class="more">Learn More</a>
+					<a href="#three" class="more">Learn More</a>
 				</section>
 
-			<!-- Four -->
-				<section id="four" class="wrapper post bg-img" data-bg="water7.jpeg">
+			<!-- Three -->
+				<section id="three" class="wrapper post bg-img" data-bg="water7.jpeg">
 					<div class="inner">
 						<article class="box">
 							<header>
-								<h2>Life Water</h2>
-								<p>----3----</p>
+								<img src="lifewater.png">
 							</header>
 							<div class="content">
 								<p>"Providing safe water to the rural poor is the most effective way to eliminate poverty. Whether you donate a water well or sponsor an entire village water project, you are allowing healthy children to live in thriving villages."</p>
@@ -126,16 +101,15 @@
 							</footer>
 						</article>
 					</div>
-					<a href="#five" class="more">Learn More</a>
+					<a href="#four" class="more">Learn More</a>
 				</section>
 
-				<!-- Five -->
-					<section id="five" class="wrapper post bg-img" data-bg="water5.jpg">
+				<!-- Four -->
+					<section id="four" class="wrapper post bg-img" data-bg="donate2.jpeg">
 						<div class="inner">
 							<article class="box">
 								<header>
-									<h2>Water is Life</h2>
-									<p>----4----</p>
+									<img src="waterislife.png">
 								</header>
 								<div class="content">
 									<p>" WiL provides clean drinking water, sanitation and hygiene education programs to schools and villages in desperate need. We provide opportunities for others to be involved through fundraising and field project implementation."</p>
